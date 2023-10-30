@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="images/New Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"><!--Remix Icon cdn-->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Romi.Finance</title>
+</head>
+
+<body>
+   
+    <nav>
+        <div class="nav1">
+            <img src="images/New Logo.png" alt="Logo">
+        </div>
+        <div class="nav2">
+            <ul>
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="dashboard.html" class="selected">Dashboard</a></li>
+                <li><a href="#">NFT</a></li>
+                <li><a href="earn.html" class="selected">Earn</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Referral</a></li>
+                <li><a href="#">Ecosystem</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="nav3">
+            <button id="tradeBtn">Trade</button>
+            <button id="walletBtn"><img src="images/ic_wallet_24.a19a6758.svg" alt="">Connect Wallet</button>
+            <button id="moreBtn"><img src="images/ic_eth_24.6b1d8a1d.svg" alt="">| <i
+                    class="ri-more-2-fill"></i></button>
+            <div class="ham">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+    </nav>
+
+  
+    <div class="dashboard">
+        <div class="earn">
+            <h1>Stats <img src="images/ic_avalanche_ethi.svg" alt=""></h1>
+            <p>Ethereum Total Stats start from 06 Jan 2022.</p>
+            <p>For detailed stats:</p>
+            <div class="all-tables">
+                <div class="table-stats table">
+                    <div class="name">
+                        <h1>Overview</h1>
+                    </div>
+                    <div class="between">
+                        <p>AUM<span>$34</span></p>
+                    </div>
+                    <div class="between">
+                        <p>$ZLP Pool<span>$34</span></p>
+                    </div>
+                    <div class="between">
+                        <p>24h Volume<span>$0</span></p>
+                    </div>
+                    <div class="between">
+                        <p>Long Positions<span>$0</span></p>
+                    </div>
+                    <div class="between underline">
+                        <p>Short Positions<span>$0</span></p>
+                    </div>
+                </div>
+
+                <div class="table-stats-total table">
+                    <div class="name">
+                        <h1>Total Stats</h1>
+                    </div>
+                    <div class="between">
+                        <p>Total Fees<span>$0</span></p>
+                    </div>
+                    <div class="between">
+                        <p>Total Volume<span>$0</span></p>
+                    </div>
+                    <div class="between dash-more">
+                        <p>Floor Price Fund<span>$627,600</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="earn">
+            <h1>Tokens <img src="images/ic_avalanche_ethi.svg" alt=""></h1>
+            <p>Platform and $ZLP index tokens.</p>
+            <div class="all-tables">
+                <div class="zomi-pie table">
+                    <div class="text-pie">
+                        <div class="name">
+                            <img src="images/zomi.png" alt="">
+                            <h1>$ZOMI <i class="ri-arrow-down-s-line"></i></h1>
+                        </div>
+
+                        <div class="between">
+                            <p>Price<span>$0.00</span></p>
+                        </div>
+                        <div class="between">
+                            <p>Supply<span>10,000 $ZOMI</span></p>
+                        </div>
+                        <div class="between">
+                            <p>Total Staked<span>$0</span></p>
+                        </div>
+                        <div class="between underline">
+                            <p>Market Cap<span>$10</span></p>
+                        </div>
+                    </div>
+
+                    <div class="pie">
+                        <div class="pie-inner">
+                            <h1>Distribution</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="zlp-pie table">
+                    <div class="text-pie">
+                        <div class="name">
+                            <img src="images/zlp.png" alt="">
+                            <h1>$ZLP <i class="ri-arrow-down-s-line"></i></h1>
+                        </div>
+
+                        <div class="between">
+                            <p>Price<span>$1.139</span></p>
+                        </div>
+                        <div class="between">
+                            <p>Supply<span>29 $ZLP</span></p>
+                        </div>
+                        <div class="between">
+                            <p>Total Staked<span>$34</span></p>
+                        </div>
+                        <div class="between underline">
+                            <p>Market Cap<span>$34</span></p>
+                        </div>
+                    </div>
+
+                    <div class="pie2">
+                        <div class="pie-inner">
+                            <h1>$ZLP Pool</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="last-table">
+            <table>
+                <caption>$ZLP Index Composition <img src="images/ic_avalanche_ethi.svg" alt=""></caption>
+                <thead>
+                    <tr>
+                        <th>TOKEN</th>
+                        <th>PRICE</th>
+                        <th>POOL</th>
+                        <th>WEIGHT</th>
+                        <th>UTILIZATION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ethereum <i class="ri-arrow-down-s-line"></i></td>
+                        <td>$1,788.83</td>
+                        <td>$19</td>
+                        <td>50.49% / 25.00%</td>
+                        <td>0.00%</td>
+                    </tr>
+                    <tr>
+                        <td>Wrapped Bitcoin <i class="ri-arrow-down-s-line"></i></td>
+                        <td>$34,238.12</td>
+                        <td>$0</td>
+                        <td>0.00% / 25.00%</td>
+                        <td>0.00%</td>
+                    </tr>
+                    <tr>
+                        <td>ApeCoin <i class="ri-arrow-down-s-line"></i></td>
+                        <td>$1.37</td>
+                        <td>$0</td>
+                        <td>0.00% / 25.00%</td>
+                        <td>0.00%</td>
+                    </tr>
+                    <tr>
+                        <td>USD Coin <i class="ri-arrow-down-s-line"></i></td>
+                        <td>$1.00</td>
+                        <td>$14</td>
+                        <td>49.50% / 25.00%</td>
+                        <td>0.00%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+  
+    <div class="footer">
+        <img src="images/New Logo.png" alt="Logo.png">
+        <div class="socials">
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-medium-fill"></i>
+            <i class="ri-github-fill"></i>
+            <i class="ri-telegram-fill"></i>
+            <i class="ri-discord-fill"></i>
+        </div>
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>Referral Terms</li>
+            <li>Media Kit</li>
+        </ul>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>

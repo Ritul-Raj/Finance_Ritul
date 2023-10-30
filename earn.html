@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="images/New Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Romi.Finance</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div class="nav1">
+            <img src="images/New Logo.png" alt="Logo">
+        </div>
+        <div class="nav2">
+            <ul>
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="dashboard.html" class="selected">Dashboard</a></li>
+                <li><a href="#">NFT</a></li>
+                <li><a href="earn.html" class="selected">Earn</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Referral</a></li>
+                <li><a href="#">Ecosystem</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="nav3">
+            <button id="tradeBtn">Trade</button>
+            <button id="walletBtn"><img src="images/ic_wallet_24.a19a6758.svg" alt="">Connect Wallet</button>
+            <button id="moreBtn"><img src="images/ic_eth_24.6b1d8a1d.svg" alt="">| <i
+                    class="ri-more-2-fill"></i></button>
+            <div class="ham">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="earn">
+        <h1>Earn</h1>
+        <p>Stake $ZOMI and $ZLP to earn rewards.</p>
+
+        <div class="all-tables">
+            <div class="table-ZOMI table">
+                <div class="name">
+                    <h1>$ZOMI</h1>
+                </div>
+                <div class="between">
+                    <p>Price<span>$0.00</span></p>
+                </div>
+                <div class="between">
+                    <p>Wallet<span>... $ZOMI ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Staked<span>... $ZOMI ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>APR<span>...%</span></p>
+                </div>
+                <div class="between">
+                    <p>Rewards<span>$...</span></p>
+                </div>
+                <div class="between">
+                    <p>Multiplier Points APR<span>100.00%</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Boost Percentage<span>...%</span></p>
+                </div>
+                <div class="between">
+                    <p>Total Staked<span>0 $ZOMI ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Total Supply<span>10,000 $ZOMI ($10)</span></p>
+                </div>
+
+                <button id="BuyZomi">Buy $ZOMI</button>
+            </div>
+
+            <div class="table-rewards table">
+                <div class="name">
+                    <h1>Total Rewards</h1>
+                </div>
+                <div class="between">
+                    <p>ETH (WETH)<span>... ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>$ZOMI<span>... ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>Escrowed $ZOMI<span>... ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>Multiplier Points<span>...</span></p>
+                </div>
+                <div class="between">
+                    <p>Staked Multiplier Points<span>...</span></p>
+                </div>
+                <div class="between underline more">
+                    <p>Total<span>$...</span></p>
+                </div>
+
+                <button class="ConnectBtn">Connect Wallet</button>
+            </div>
+
+            <div class="table-ZLP table">
+                <div class="name">
+                    <h1>$ZLP (Ethereum)</h1>
+                </div>
+                <div class="between">
+                    <p>Price<span>$...</span></p>
+                </div>
+                <div class="between">
+                    <p>Wallet<span>... $ZLP ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Staked<span>... $ZOMI ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>APR<span>...%</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Rewards<span>$...</span></p>
+                </div>
+                <div class="between">
+                    <p>Total Staked<span>... $ZLP ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Total Supply<span>... $ZLP ($...)</span></p>
+                </div>
+
+                <div class="buy-sell">
+                    <button id="buyZLP">Buy $ZLP</button>
+                    <button id="sellZLP">Sell $ZLP</button>
+                </div>
+            </div>
+
+            <div class="table-Escrowed table">
+                <div class="name">
+                    <h1>Escrowed $ZOMI</h1>
+                </div>
+                <div class="between">
+                    <p>Price<span>$...</span></p>
+                </div>
+                <div class="between">
+                    <p>Wallet<span>... $ZLP ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Staked<span>... $ZOMI ($...)</span></p>
+                </div>
+                <div class="between">
+                    <p>APR<span>...%</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Rewards<span>$...</span></p>
+                </div>
+                <div class="between">
+                    <p>Total Staked<span>... $ZLP ($...)</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Total Supply<span>... $ZLP ($...)</span></p>
+                </div>
+
+                <button class="ConnectBtn">Connect Wallet</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="earn">
+        <h1>Vest</h1>
+        <p>Convert esZOMI tokens to $ZOMI tokens.</p>
+        <p>Please read the vesting details before using the vaults.</p>
+        <div class="all-tables">
+            <div class="table-vest-zomi table">
+                <div class="name">
+                    <h1>$ZOMI Vault</h1>
+                </div>
+                <div class="between">
+                    <p>Staked Tokens<span>...</span></p>
+                </div>
+                <div class="between">
+                    <p>Reserved for Vesting<span>0.00 / ...</span></p>
+                </div>
+                <div class="between">
+                    <p>Vesting Status<span>0.0000 / 0.0000</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Claimable<span>0.0000 $ZOMI</span></p>
+                </div>
+                <button class="ConnectBtn">Connect Wallet</button>
+            </div>
+
+            <div class="table-vest-zlp table">
+                <div class="name">
+                    <h1>$ZLP Vault</h1>
+                </div>
+                <div class="between">
+                    <p>Staked Tokens<span>...</span></p>
+                </div>
+                <div class="between">
+                    <p>Reserved for Vesting<span>0.00 / ...</span></p>
+                </div>
+                <div class="between">
+                    <p>Vesting Status<span>0.0000 / 0.0000</span></p>
+                </div>
+                <div class="between underline">
+                    <p>Claimable<span>0.0000 $ZOMI</span></p>
+                </div>
+                <button class="ConnectBtn">Connect Wallet</button>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <div class="footer">
+        <img src="images/New Logo.png" alt="Logo.png">
+        <div class="socials">
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-medium-fill"></i>
+            <i class="ri-github-fill"></i>
+            <i class="ri-telegram-fill"></i>
+            <i class="ri-discord-fill"></i>
+        </div>
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>Referral Terms</li>
+            <li>Media Kit</li>
+        </ul>
+    </div>
+
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
